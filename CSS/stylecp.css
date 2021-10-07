@@ -1,0 +1,56 @@
+body{
+background-color: #fbf4f8 ;
+font-family:Papyrus;
+font-weight: bolder;}
+
+h2 {font-size: 86px;
+font-weight: bold;
+font-family:Papyrus;
+text-align: center;
+color: palevioletred;
+}
+
+textarea {
+  width: 50%;
+  height: 400px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+
+#Logo{
+  height: 70px;
+  width: 70px;
+  float: right;}
+
+img{
+  height: 50px;
+  width: 50px;
+  float: right;}
+
+img{
+float:right;
+height: 400px;
+width: 560px;
+}
+
+#two{
+  float: right;}
+
+#contactinfo{
+font-style: italic;
+font-family: Papyrus;
+color: plum;
+font-size: 40;
+float: right;
+}
+
+audio{
+  float: right;
+  height: 220px;
+  width:120px
+}

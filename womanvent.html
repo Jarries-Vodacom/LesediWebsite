@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Females Venting</title>
+    <link rel="stylesheet" href="CSS/stylewomen.css">
+    <a href="./index.html"><em><strong>Sediiey Mabaso</strong> </em></a>|
+    <a href="./aboutpage.html"><em><strong>About Page</strong></em></a>|
+    <a href="./contactpage.html"> <em> <strong> Contact Page</strong></em></a>|
+    <script type=" text/javascript" src="JS/script.js">
+            document.getElementById('Main').innerHTML = "Sediiey Mabaso".
+        </script>
+  </head>
+  <body>
+<img src="images/logo.png" alt="Sediiey Mabaso Logo">
+  <h2>I need to vent</h2>
+  <p>You a female right? Something happened to you today and you do not feel
+    like you can talk to anyone? Speaking about what's heavy on your chest but
+    society has made it difficult for you to even express yourself without
+    feeling outcasted? Here's a space for you to let it all out anonymously.</p>
+
+    <button type="button" name="affirmations" onclick="display()">Today's affirmations</button>
+    <p id="Affirmations"></p>
+  <div class="container">
+    <form action="/action_page.php">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">First Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="Uname">User Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="Uname" name="Username" placeholder="Your user name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="feelings">How Do You Feel Today </label>
+      </div>
+      <div class="col-75">
+        <select id="feelings" name="How Do You Feel Today ?">
+          <option value="Content">Content</option>
+          <option value="Happy">Happy</option>
+          <option value="Angry">Angry</option>
+          <option value="Sad">Sad</option>
+          <option value="Emotional">Just Emotional</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Subject</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Today I feel..." style="height:200px"></textarea>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+    </form>
+
+  </body>
+</html>

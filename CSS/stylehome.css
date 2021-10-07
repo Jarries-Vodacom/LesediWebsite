@@ -1,0 +1,105 @@
+#mainname {
+  font-family: Papyrus;
+font-size: 160px;
+font-style:italic;
+font-weight: bold;
+text-align-last: left;
+text-align:center;
+color:palevioletred ;
+
+}
+
+nav{
+  font-size: 55px;
+  font-stretch: condensed;
+  font-style: italic;
+  font-family: Papyrus;
+  font-display:swap;
+}
+p{font-size: 60px;
+font-style: italic;
+font-weight: bold;
+font-family:Papyrus;
+color:palevioletred ;
+}
+#Logo{
+  height: 100px;
+  width: 100px;
+  float: right;}
+
+#explanation{
+  font-size: 50px;
+font-style: italic;
+font-weight: lighter;
+text-align-last: right;
+font-family:Papyrus;
+color:rosybrown ;}
+
+img{
+  height:1020px;
+  width:50%;
+  float: right;
+}
+
+#end{
+  border-color: Gray;
+  border-style: solid;
+  border-width:medium;
+  background-color: white;
+  font-size: 20px;
+  color: rosybrown;
+  width:100%;
+  text-align: center;
+  font-weight: bolder;
+}
+ul{
+  font-size: 50px;
+  text-align:
+  font-stretch: condensed;
+  font-style: italic;
+  font-family: Papyrus;
+}
+a{
+  font-size: 40px;
+  font-style: oblique;
+  font-family:Papyrus;
+  text-align: center;
+  color: Black;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 90px;
+  width: 80px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+body{background-color: #fbf4f8 ;
+background-image: url('images/home.jpg');
+background-position: center;
+background-size: cover
+color:mediumvioletred;
+
+}

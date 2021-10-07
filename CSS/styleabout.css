@@ -1,0 +1,75 @@
+
+{
+box-sizing: border-box;
+color:thistle;
+}
+
+body {
+  font-family: Papyrus;
+  color:palevioletred ;
+  background-color: #fbf4f8;
+  font-weight: bolder;
+}
+img{
+  height: 50px;
+  width: 50px;
+  float: right;}
+/* Style the header */
+header {
+  background-color: #e9d2e0;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: mediumvioletred;
+}
+
+h1{
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 48px;
+  text-align: center;
+}
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+
+
+button{
+  padding-left: 0;
+  font-family:Papyrus;
+ size: 40px;
+  color: mediumvioletRed;
+  transition-duration: 0.4s;}
+
+button:hover{
+  background-color: lightpink;
+  color: black;
+}
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #e9d2e0;
+  padding: 10px;
+  text-align: center;
+  font-size: 28px;
+  color: mediumvioletRed;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
